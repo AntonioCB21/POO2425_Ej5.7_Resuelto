@@ -6,7 +6,7 @@ open class Vehiculo(val marca: String, val modelo: String, val capacidadCombusti
     }
 
     fun mostrarInformacion() {
-        println("🚗 Vehículo: $marca $modelo | Combustible: ${capacidadCombustible}L | Autonomía: ${calcularAutonomia()} km")
+        println("Vehículo: $marca $modelo | Combustible: ${capacidadCombustible}L | Autonomía: ${calcularAutonomia()} km")
     }
 }
 
@@ -18,7 +18,7 @@ class Automovil(marca: String, modelo: String, capacidadCombustible: Int, val ti
     }
 
     override fun mostrarInformacion() {
-        println("🚙 Automóvil ($tipo): $marca $modelo | Combustible: ${capacidadCombustible}L | Autonomía: ${calcularAutonomia()} km")
+        println("Automóvil ($tipo): $marca $modelo | Combustible: ${capacidadCombustible}L | Autonomía: ${calcularAutonomia()} km")
     }
 }
 
@@ -30,7 +30,7 @@ class Motocicleta(marca: String, modelo: String, capacidadCombustible: Int, val 
     }
 
     override fun mostrarInformacion() {
-        println("🏍️ Motocicleta ${cilindrada}cc: $marca $modelo | Combustible: ${capacidadCombustible}L | Autonomía: ${calcularAutonomia()} km")
+        println("Motocicleta ${cilindrada}cc: $marca $modelo | Combustible: ${capacidadCombustible}L | Autonomía: ${calcularAutonomia()} km")
     }
 }
 
